@@ -6,6 +6,7 @@ import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection"; // Direct import instead of lazy loading
 import OverviewSection from "@/components/OverviewSection"; // Direct import instead of lazy loading
 import UtilitySection from "@/components/UtilitySection";
+import CommunityMade from "@/components/CommunityMade";
 import { Button } from "@/components/ui/button";
 import { RefreshCw } from "lucide-react";
 import { toast } from "@/components/ui/use-toast";
@@ -122,6 +123,9 @@ const Index = () => {
             </div>
             <div className="relative z-20">
               <UtilitySection />
+            </div>
+            <div className="relative z-20">
+              <CommunityMade />
             </div>
           </>
         )}
