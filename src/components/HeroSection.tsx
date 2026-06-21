@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { TextRotate } from "@/components/ui/text-rotate";
 import { OptimizedTextRotate } from "@/components/ui/optimized-text-rotate";
-import CountdownTimer from "./CountdownTimer";
 import { useEffect, useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import MatrixRain from "./ui/MatrixRain";
@@ -101,8 +100,6 @@ const HeroSection = () => {
           />
         </div>
 
-        <CountdownTimer />
-        
         {/* Version indicator */}
         <div className="text-[8px] text-gray-300 mt-2 opacity-30">v2.1.2-nocache-{new Date().toISOString().split('T')[0]}</div>
       </div>

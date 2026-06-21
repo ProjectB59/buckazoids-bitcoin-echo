@@ -73,7 +73,7 @@ const AboutSection = () => {
           
           {/* Description text after the rotation component */}
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-16">
-            Buckazoids built on the Solana blockchain, uniquely bridges the worlds of classic gaming and cryptocurrency history. Originally featured as the fictional currency in Sierra's legendary "Space Quest" series, Buckazoids notably showcased a ₿ decades before Bitcoin's creation. Rediscovered through a viral Reddit post in March 2025, Buckazoids quickly captivated both gaming and crypto enthusiasts worldwide.
+            Buckazoids is a Solana token where retro gaming meets crypto history. The name comes from the in-game currency of Sierra's classic "Space Quest" series — which put a ₿ symbol on screen decades before Bitcoin existed. A viral Reddit post in March 2025 brought it back, and gamers and crypto fans have run with it ever since.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ const AboutSection = () => {
             </div>
             <h3 className="text-2xl font-bold mb-4">Community & Growth</h3>
             <p className="text-gray-600 mb-6">
-              Today, Buckazoids boasts over 10,000 dedicated wallet holders and growing — backed by an organically built, international community spanning the USA, China, Brazil, Greece, Southeast Asia, and Spanish-speaking regions. With no presale and zero VC funding, its rise is 100% authentic and community-driven.
+              Buckazoids has grown past 10,000 wallet holders across the USA, China, Brazil, Greece, Southeast Asia, and the Spanish-speaking world. No presale, no VC money — just a community that showed up and built it.
             </p>
             <Button 
               variant="outline" 
@@ -101,7 +101,7 @@ const AboutSection = () => {
             </div>
             <h3 className="text-2xl font-bold text-buckazoid-blue mb-4">Cultural Significance</h3>
             <p className="text-gray-600 mb-6">
-              As Buckazoids continues its rise, it represents not only a nostalgic nod to gaming history but also a genuine cultural artifact linking digital nostalgia to blockchain innovation.
+              Buckazoids is more than a meme coin — it's a piece of gaming history that found a second life on-chain.
             </p>
             <Button 
               variant="outline" 
