@@ -75,12 +75,12 @@ const CommunityPlatforms: React.FC = () => {
         accentColor="primary"
       />
 
-      {/* Project B59 Research Initiative */}
+      {/* Press & Media */}
       <CommunityCard
-        title="Project B59 Research Initiative"
-        description="Explore the academic research and historical analysis of the Buckazoids phenomenon through Project B59."
-        icon={<Search className="text-buckazoid-orange w-8 h-8" />}
-        buttonText="Visit Project B59"
+        title="Press & Media"
+        description="Press kit, logos, and memes — everything journalists and creators need to cover Buckazoids, all in one place."
+        icon={<FileSearch className="text-buckazoid-orange w-8 h-8" />}
+        buttonText="Get Press Kit & Memes"
         buttonUrl="https://projectb59.github.io/buckazoids-site/index.html"
         accentColor="secondary"
       />
@@ -92,16 +92,6 @@ const CommunityPlatforms: React.FC = () => {
         icon={<Github className="text-[#02314d] w-8 h-8" />}
         buttonText="View White Paper"
         buttonUrl="https://github.com/Buckazoidscto/Buckazoids-white-paper-CTO-/wiki/Buckazoids-white-paper-English(CTO)"
-        accentColor="primary"
-      />
-
-      {/* Constitution */}
-      <CommunityCard
-        title="Constitution"
-        description="Explore the Constitution of Buckazoids, the guiding principles and values that unite our community across time and space."
-        icon={<BookOpen className="text-[#02314d] w-8 h-8" />}
-        buttonText="View Constitution"
-        buttonUrl="/constitution"
         accentColor="primary"
       />
 
