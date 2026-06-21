@@ -1,5 +1,5 @@
 
-import { Star, Calendar } from "lucide-react";
+import { Star, Calendar, Network } from "lucide-react";
 
 const ContributorsSection = () => {
   return (
@@ -37,8 +37,21 @@ const ContributorsSection = () => {
           <h3 className="text-lg md:text-xl font-bold mb-4 text-[#02314d]">The Buckazoids Token Launch</h3>
           <p className="text-gray-700 leading-relaxed text-sm md:text-base">
             On March 27th, 2025, the Buckazoids token launched on Solana, a fast, low-cost blockchain.
-            The date is no accident. It lands exactly 59 days before a Bitcoin Conference themed
-            "EMBRACE GAME THEORY," a nod straight back to Space Quest.
+            After decades as an in-game currency, Buckazoids finally had a real home on-chain.
+          </p>
+        </div>
+      </div>
+
+      <div className="flex items-start gap-3 md:gap-4">
+        <Network className="w-6 h-6 md:w-8 md:h-8 text-[#045c94] flex-shrink-0 mt-1" />
+        <div className="flex-1 min-w-0">
+          <h3 className="text-lg md:text-xl font-bold mb-4 text-[#02314d]">Part of a Bigger Story</h3>
+          <p className="text-gray-700 leading-relaxed text-sm md:text-base">
+            Buckazoids sits inside a much longer history. Long before Bitcoin, the cypherpunks were
+            building the pieces that made it possible: anonymous remailers, digital signatures, and
+            early digital cash. Pioneers like Phil Salin, who launched one of the first online
+            marketplaces (AMiX) in the early 1990s, were already imagining digital economies decades
+            ahead of their time. Preserving that record is part of what Project B59 is about.
           </p>
         </div>
       </div>
