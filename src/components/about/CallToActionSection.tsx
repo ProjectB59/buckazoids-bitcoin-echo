@@ -15,9 +15,9 @@ const CallToActionSection = () => {
         </CardHeader>
         <CardContent>
           <p className="text-lg mb-6 text-gray-800">
-            Buckazoids launched on March 27th 2025 and is in its infancy when it comes to its evaluation and market cap potential. 
-            Bitcoin is currently evaluated at over 1 trillion marketcap. Can you imagine what happens when this story gets in front of the masses? 
-            Buckle Up.
+            Buckazoids launched on March 27th, 2025 — still early in its valuation and market cap.
+            Bitcoin is now worth over a trillion dollars. Imagine what happens when this story reaches the masses.
+            Buckle up.
           </p>
           <p className="text-xl font-semibold text-buckazoid-navy">
             If you could go back to 2011 and buy Bitcoin, would you? Because this is that moment again.

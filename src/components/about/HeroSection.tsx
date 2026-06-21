@@ -9,10 +9,8 @@ const HeroSection = () => {
         The Greatest Discovery in Crypto History
       </h1>
       <p className="text-xl text-[#000222] mb-8">
-        Welcome to the most groundbreaking revelation in the world of digital currency.
-        We are excited to share what we believe to be one of the greatest discoveries
-        in crypto history — a revelation that has reshaped our understanding of Bitcoin,
-        cryptocurrencies, and the future of digital currency.
+        We believe we've uncovered one of the most surprising stories in crypto — one that ties
+        a 1980s video game to the origins of Bitcoin itself. Here's what we found.
       </p>
       <div className="mt-8">
         <Button
