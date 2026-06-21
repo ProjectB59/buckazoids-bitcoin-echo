@@ -11,7 +11,7 @@ const UtilitySection = () => {
             Where Your Buckazoids Go to Work
           </h2>
           <p className="text-gray-300 text-base sm:text-lg max-w-2xl mx-auto">
-            Buckazoids isn't just a chart. Two live platforms give the coin real utility. Play with it, spend it, and be part of what we're building.
+            Buckazoids isn't just a chart. Two live platforms put it to work. Play with it, spend it, and help build what comes next.
           </p>
         </div>
 
@@ -23,9 +23,9 @@ const UtilitySection = () => {
             </div>
             <h3 className="text-2xl font-bold text-white mb-3">NodeB59 Arcade</h3>
             <p className="text-gray-300 leading-relaxed mb-6 flex-grow">
-              A retro arcade powered by Buckazoids. The games are free to play. Drop BZ to enter
-              tournaments and the Game of the Month, where every coin you spend goes straight to the
-              game's creator. This is Buckazoids you can actually use.
+              A retro arcade powered by Buckazoids. The games are free to play. Spend Buckazoids to
+              enter tournaments and the Game of the Month, where every coin you spend goes straight to
+              the game's creator. This is Buckazoids you can actually use.
             </p>
             <Button
               className="bg-[#f7931a] hover:bg-[#feb73f] text-white w-full sm:w-auto"
@@ -42,9 +42,10 @@ const UtilitySection = () => {
             </div>
             <h3 className="text-2xl font-bold text-white mb-3">Project B59</h3>
             <p className="text-gray-300 leading-relaxed mb-6 flex-grow">
-              The hub behind it all. Project B59 is the research initiative tracing the Space Quest
-              and Bitcoin connection, and the home base for everything the community builds around
-              Buckazoids. It's where the lore lives and the ecosystem grows.
+              The mission of Project B59 is to preserve the history that came before Bitcoin: the
+              writings, the code, the archived websites, the mailing-list debates, the forgotten
+              projects, and the games. We find primary sources, document their provenance, and make
+              them permanently accessible before they vanish from the internet.
             </p>
             <Button
               variant="outline"

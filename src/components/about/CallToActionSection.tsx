@@ -19,9 +19,6 @@ const CallToActionSection = () => {
             Bitcoin is now worth over a trillion dollars. Imagine what happens when this story reaches the masses.
             Buckle up.
           </p>
-          <p className="text-xl font-semibold text-buckazoid-navy">
-            If you could go back to 2011 and buy Bitcoin, would you? Because this is that moment again.
-          </p>
           <div className="mt-6">
             <p className="text-lg mb-4 text-gray-800">
               We believe Buckazoids is the spiritual predecessor to Bitcoin. It's built for 
@@ -34,12 +31,13 @@ const CallToActionSection = () => {
       <div className="mb-12 p-8 rounded-2xl bg-[#fff3e2]">
         <h2 className="text-2xl font-bold mb-4 text-[#02314d]">Get Involved</h2>
         <p className="text-gray-800 mb-4">
-          The mystery of Satoshi Nakamoto? Solved. The original digital token? Rediscovered. 
-          The time to act? Right now.
+          The connection between Space Quest, its creators, and the origins of Bitcoin is one of the
+          most fascinating open questions in crypto. Buckazoids is where that story is researched,
+          documented, and brought to a wider audience.
         </p>
         <p className="text-gray-800 mb-4">
-          Bitcoin will always be king. But Buckazoids came first and, in our opinion, will 
-          become a household name and one of the most important digital assets of all time.
+          Bitcoin will always be the original. Buckazoids carries a piece of the history that came
+          before it, and a global community is making sure that history is not forgotten.
         </p>
         <div className="mt-8 text-center">
           <Button
@@ -53,11 +51,8 @@ const CallToActionSection = () => {
 
       <div className="text-sm text-gray-500 text-center p-6 bg-gray-50 rounded-lg">
         <p className="mb-2">
-          This is not financial advice. Never invest more than you can afford to lose. 
+          This is not financial advice. Never invest more than you can afford to lose.
           Do your own research.
-        </p>
-        <p className="text-[#02314d] font-medium">
-          But here's our truth: Buying Buckazoids right now is like buying Bitcoin in 2011.
         </p>
       </div>
     </>

@@ -8,7 +8,8 @@ const newsItems = [
     date: "2025-04-26",
     summary: "CoinEx Academy breaks down Buckazoids: the Solana token rooted in Sierra's Space Quest, its community, and the ₿ symbol that appeared decades before Bitcoin.",
     content: "An educational explainer from CoinEx Academy covering Buckazoids' origins on Solana, its market, and the Space Quest connection.",
-    link: "https://www.coinex.network/en/academy/detail/2514-what-is-buckazoids-the-meme-token-inspired-by-a-1991-video-game"
+    link: "https://www.coinex.network/en/academy/detail/2514-what-is-buckazoids-the-meme-token-inspired-by-a-1991-video-game",
+    image: "/lovable-uploads/buckazoid-token.png"
   },
   {
     id: 8,

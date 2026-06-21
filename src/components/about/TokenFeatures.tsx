@@ -15,10 +15,24 @@ const TokenFeatures = () => {
         ))}
       </ul>
       <p className="mt-6 text-gray-700">
-        Bitcoin's foundation is built on prime numbers, representing indivisibility, security, 
-        and incorruptibility. The number 59 is a cryptographic fingerprint embedded into the 
+        Bitcoin's foundation is built on prime numbers, representing indivisibility, security,
+        and incorruptibility. The number 59 is a cryptographic fingerprint embedded into the
         roots of Buckazoids.
       </p>
+      <div className="mt-6 p-4 rounded-lg bg-[#fff3e2] border border-[#045c94]/20">
+        <p className="text-[#02314d] font-semibold">
+          Is there more to it? There's a lot more to it.{" "}
+          <a
+            href="https://projectb59.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#045c94] underline hover:text-[#02314d]"
+          >
+            Follow the research at Project B59
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
 };
