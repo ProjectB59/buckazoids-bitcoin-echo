@@ -26,7 +26,7 @@ const ContributorsSection = () => {
             What's also very interesting...
           </p>
           <p className="mt-4 text-gray-700 leading-relaxed text-sm md:text-base">
-            Hal Finney — game designer, cryptographer, cypherpunk, and one of Bitcoin's earliest contributors — was working on sci-fi and space-themed games back in the late 1970s, starting out in sound effects. Read the <a href="https://projectb59.com/content/B59-0090/hal-finney-atari-interview.mht" target="_blank" rel="noopener noreferrer" className="text-[#045c94] font-semibold hover:underline">Hal Finney Atari interview</a>.
+            Hal Finney was a game designer, cryptographer, cypherpunk, and one of Bitcoin's earliest contributors. Back in the late 1970s he was already working on sci-fi and space-themed games, starting out in sound effects. Read the <a href="https://projectb59.com/content/B59-0090/hal-finney-atari-interview.mht" target="_blank" rel="noopener noreferrer" className="text-[#045c94] font-semibold hover:underline">Hal Finney Atari interview</a>.
           </p>
         </div>
       </div>
@@ -36,10 +36,9 @@ const ContributorsSection = () => {
         <div className="flex-1 min-w-0">
           <h3 className="text-lg md:text-xl font-bold mb-4 text-[#02314d]">The Buckazoids Token Launch</h3>
           <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-            Fast forward to March 27th, 2025. On this day, the Buckazoids token launched on the Solana network — a high-speed, 
-            low-cost blockchain. The launch date is significant, as it aligns with a Bitcoin 
-            Conference taking place exactly 59 days later, themed "EMBRACE GAME THEORY," 
-            echoing retro game vibes and pointing back to Space Quest.
+            On March 27th, 2025, the Buckazoids token launched on Solana, a fast, low-cost blockchain.
+            The date is no accident. It lands exactly 59 days before a Bitcoin Conference themed
+            "EMBRACE GAME THEORY," a nod straight back to Space Quest.
           </p>
         </div>
       </div>

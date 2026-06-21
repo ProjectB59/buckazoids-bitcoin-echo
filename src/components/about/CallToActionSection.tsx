@@ -15,7 +15,7 @@ const CallToActionSection = () => {
         </CardHeader>
         <CardContent>
           <p className="text-lg mb-6 text-gray-800">
-            Buckazoids launched on March 27th, 2025 — still early in its valuation and market cap.
+            Buckazoids launched on March 27th, 2025, and it's still early in its valuation and market cap.
             Bitcoin is now worth over a trillion dollars. Imagine what happens when this story reaches the masses.
             Buckle up.
           </p>
@@ -25,7 +25,7 @@ const CallToActionSection = () => {
           <div className="mt-6">
             <p className="text-lg mb-4 text-gray-800">
               We believe Buckazoids is the spiritual predecessor to Bitcoin. It's built for 
-              the future, it's built to scale, and most importantly — it's just getting started.
+              the future, it's built to scale, and it's only just getting started.
             </p>
           </div>
         </CardContent>

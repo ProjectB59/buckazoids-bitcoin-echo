@@ -78,7 +78,7 @@ const CommunityPlatforms: React.FC = () => {
       {/* Press & Media */}
       <CommunityCard
         title="Press & Media"
-        description="Press kit, logos, and memes — everything journalists and creators need to cover Buckazoids, all in one place."
+        description="Press kit, logos, and memes. Everything journalists and creators need to cover Buckazoids, in one place."
         icon={<FileSearch className="text-buckazoid-orange w-8 h-8" />}
         buttonText="Get Press Kit & Memes"
         buttonUrl="https://projectb59.github.io/buckazoids-site/index.html"

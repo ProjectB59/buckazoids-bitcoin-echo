@@ -4,9 +4,9 @@ const TokenFeatures = () => {
     <div className="mb-12">
       <h2 className="text-2xl font-bold mb-4 text-[#02314d]">The Buckazoids Token Features</h2>
       <ul className="list-none space-y-4 text-gray-700">
-        {['The ₿-like "B" logo — predating Bitcoin',
-          'A rocket ship — nodding to its origins as a cosmic currency in Space Quest',
-          'The number 59 — a prime number with cryptographic significance'
+        {['A ₿-style "B" logo that predates Bitcoin',
+          'A rocket ship, a nod to its origins as a cosmic currency in Space Quest',
+          'The number 59, a prime number with cryptographic significance'
         ].map((item, index) => (
           <li key={index} className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-[#045c94]" />

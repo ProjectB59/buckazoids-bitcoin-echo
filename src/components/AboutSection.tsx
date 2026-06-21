@@ -73,7 +73,7 @@ const AboutSection = () => {
           
           {/* Description text after the rotation component */}
           <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-16">
-            Buckazoids is a Solana token where retro gaming meets crypto history. The name comes from the in-game currency of Sierra's classic "Space Quest" series — which put a ₿ symbol on screen decades before Bitcoin existed. A viral Reddit post in March 2025 brought it back, and gamers and crypto fans have run with it ever since.
+            Buckazoids is the Solana token where retro gaming meets crypto history. The name comes from the in-game currency in Sierra's classic "Space Quest" games, which showed a ₿ symbol on screen decades before Bitcoin existed. A viral Reddit post in March 2025 brought it roaring back, and gamers and crypto fans have run with it ever since.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ const AboutSection = () => {
             </div>
             <h3 className="text-2xl font-bold mb-4">Community & Growth</h3>
             <p className="text-gray-600 mb-6">
-              Buckazoids has grown past 10,000 wallet holders across the USA, China, Brazil, Greece, Southeast Asia, and the Spanish-speaking world. No presale, no VC money — just a community that showed up and built it.
+              Buckazoids has grown past 10,000 wallet holders across the USA, China, Brazil, Greece, Southeast Asia, and the Spanish-speaking world. There was no presale and no VC money. This community showed up and built it from the ground up.
             </p>
             <Button 
               variant="outline" 
@@ -101,7 +101,7 @@ const AboutSection = () => {
             </div>
             <h3 className="text-2xl font-bold text-buckazoid-blue mb-4">Cultural Significance</h3>
             <p className="text-gray-600 mb-6">
-              Buckazoids is more than a meme coin — it's a piece of gaming history that found a second life on-chain.
+              Buckazoids turns a real piece of gaming history into a coin you can own, trade, and actually use today.
             </p>
             <Button 
               variant="outline" 

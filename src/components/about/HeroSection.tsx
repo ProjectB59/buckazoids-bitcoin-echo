@@ -9,8 +9,8 @@ const HeroSection = () => {
         The Greatest Discovery in Crypto History
       </h1>
       <p className="text-xl text-[#000222] mb-8">
-        We believe we've uncovered one of the most surprising stories in crypto — one that ties
-        a 1980s video game to the origins of Bitcoin itself. Here's what we found.
+        We believe we've uncovered one of the most surprising stories in crypto. It ties a 1980s
+        video game straight to the origins of Bitcoin. Here's what we found.
       </p>
       <div className="mt-8">
         <Button
