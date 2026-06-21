@@ -98,15 +98,6 @@ const Index = () => {
       <SEO {...pageSeoData.home} />
       <Header />
       <main className="flex-grow relative">
-        <div className="fixed bottom-4 right-4 z-50">
-          <Button 
-            onClick={handleRefreshClick}
-            className="bg-buckazoids-orange hover:bg-buckazoids-yellow flex items-center gap-2"
-          >
-            <RefreshCw className="h-4 w-4" /> Refresh Content
-          </Button>
-        </div>
-        
         {/* Always load the hero section immediately */}
         <div className="relative z-10">
           <HeroSection key={`hero-${lastRefresh || 'initial'}`} />

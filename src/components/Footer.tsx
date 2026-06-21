@@ -11,9 +11,9 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2 space-y-6">
             <h3 className="text-buckazoids-blue font-semibold text-lg">About Buckazoids</h3>
             <p className="text-sm text-gray-600 leading-relaxed max-w-xl">
-              Buckazoids is an innovative memecoin inspired by classic gaming culture, 
-              bridging nostalgia with modern blockchain technology. Join our growing 
-              community and be part of the future of digital currency.
+              Buckazoids is a Solana token born from Sierra's "Space Quest" games, where a ₿ symbol
+              appeared on screen years before Bitcoin. Real gaming history, now in the hands of its
+              community.
             </p>
             <div className="mt-4">
               <a href="mailto:Buckazoids@ProjectB59.com" 
@@ -167,7 +167,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <div className="flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-            <p>© 2025 Buckazoids. All rights reserved.</p>
+            <p>© 2026 Buckazoids. All rights reserved.</p>
           </div>
 
           <div className="mt-4 text-center text-xs text-gray-500">

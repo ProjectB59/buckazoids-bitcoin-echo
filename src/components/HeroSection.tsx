@@ -102,8 +102,6 @@ const HeroSection = () => {
           />
         </div>
 
-        {/* Version indicator */}
-        <div className="text-[8px] text-gray-300 mt-2 opacity-30">v2.1.2-nocache-{new Date().toISOString().split('T')[0]}</div>
       </div>
     </div>
   );
