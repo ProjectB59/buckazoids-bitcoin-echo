@@ -1,12 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { TextRotate } from "@/components/ui/text-rotate";
 import { OptimizedTextRotate } from "@/components/ui/optimized-text-rotate";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import MatrixRain from "./ui/MatrixRain";
 import { Skeleton } from "@/components/ui/skeleton";
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   const [isImageLoaded, setIsImageLoaded] = useState(false);
   const isMobile = useIsMobile();
   const [cacheBuster, setCacheBuster] = useState(`?v=${Date.now()}`);
@@ -59,9 +61,9 @@ const HeroSection = () => {
 
         {/* Button section - Updated with hover and active state styling */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-          <Button 
+          <Button
             className="bg-[#f7931a] hover:bg-[#feb73f] text-white px-8 active:bg-[#feb73f] active:text-white"
-            onClick={() => window.location.href = '/about'}
+            onClick={() => navigate('/about')}
           >
             Get started with Buckazoids
           </Button>
@@ -72,10 +74,10 @@ const HeroSection = () => {
           >
             <span className="truncate">BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump</span>
           </Button>
-          <Button 
-            variant="outline" 
+          <Button
+            variant="outline"
             className="border-[#f7931a] text-[#f7931a] hover:bg-[#feb73f] hover:text-white hover:border-[#feb73f] active:bg-[#feb73f] active:text-white active:border-[#feb73f]"
-            onClick={() => window.location.href = '/buy'}
+            onClick={() => window.open('https://pump.fun/coin/BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump', '_blank')}
           >
             Buy Buckazoids
           </Button>

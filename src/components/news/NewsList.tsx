@@ -3,6 +3,14 @@ import { ExternalLink, Star, Youtube } from "lucide-react";
 
 const newsItems = [
   {
+    id: 9,
+    title: "What Is BUCKAZOIDS: The Meme Token Inspired by a 1991 Video Game",
+    date: "2025-04-26",
+    summary: "CoinEx Academy breaks down Buckazoids — the Solana token rooted in Sierra's Space Quest, its community, and the ₿ symbol that appeared decades before Bitcoin.",
+    content: "An educational explainer from CoinEx Academy covering Buckazoids' origins on Solana, its market, and the Space Quest connection.",
+    link: "https://www.coinex.network/en/academy/detail/2514-what-is-buckazoids-the-meme-token-inspired-by-a-1991-video-game"
+  },
+  {
     id: 8,
     title: "On The Go Crypto Review",
     date: "2025-04-27",

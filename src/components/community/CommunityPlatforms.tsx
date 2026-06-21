@@ -70,8 +70,8 @@ const CommunityPlatforms: React.FC = () => {
             />
           </svg>
         }
-        buttonText="Follow Project B59"
-        buttonUrl="https://x.com/59Buckazoids"
+        buttonText="Follow @ProjectB59"
+        buttonUrl="https://x.com/ProjectB59"
         accentColor="primary"
       />
 
@@ -188,16 +188,6 @@ const CommunityPlatforms: React.FC = () => {
         buttonText="Subscribe Newsletter"
         buttonUrl="https://factual-cinema-e47.notion.site/1e0b7bec064980dbbd9de3c43e474c95?v=220b7bec0649805787ee000c8cb0c9ad"
         accentColor="primary"
-      />
-
-      {/* Buckazoids Merch */}
-      <CommunityCard
-        title="Buckazoids Merch"
-        description="Shop official Buckazoids merchandise and show your support for the project with exclusive items."
-        icon={<ShoppingBag className="text-buckazoid-orange w-8 h-8" />}
-        buttonText="Shop Merch"
-        buttonUrl="https://buckazoids.online/"
-        accentColor="secondary"
       />
 
       {/* eBay Challenge Coins */}
