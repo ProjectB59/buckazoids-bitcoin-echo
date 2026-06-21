@@ -11,7 +11,7 @@ export const navigationItems: NavigationItem[] = [
   { name: "About", href: "/about" },
   { name: "White Paper", href: "https://github.com/Buckazoidscto/Buckazoids-white-paper-CTO-/wiki/Buckazoids-white-paper-English(CTO)" },
   { name: "News", href: "/news" },
-  { name: "Buy Buckazoids", href: "/buy" },
+  { name: "Buy Buckazoids", href: "https://pump.fun/coin/BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump" },
   { name: "Community", href: "/community" },
   { name: "Contact Us", href: "/contact-us" },
 ];

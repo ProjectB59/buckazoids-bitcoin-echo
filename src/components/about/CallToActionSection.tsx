@@ -44,7 +44,7 @@ const CallToActionSection = () => {
         <div className="mt-8 text-center">
           <Button
             className="bg-[#02314d] text-white hover:bg-[#045c94] px-8 py-6 text-lg font-semibold"
-            onClick={() => window.open('https://dexscreener.com/solana/dujfqjqj69psrqhgczetd5qcalanyy12tbwvfcpqxvku', '_blank')}
+            onClick={() => window.open('https://pump.fun/coin/BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump', '_blank')}
           >
             Buy Now <ExternalLink className="ml-2" />
           </Button>

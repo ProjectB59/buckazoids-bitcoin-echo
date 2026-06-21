@@ -49,7 +49,7 @@ export const MobileNav = ({
             className="w-full bg-buckazoids-orange hover:bg-buckazoids-yellow text-white"
             onClick={() => {
               setIsOpen(false);
-              window.location.href = '/buy';
+              window.location.href = '/about';
             }}
           >
             Get Started

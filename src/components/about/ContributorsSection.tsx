@@ -25,8 +25,8 @@ const ContributorsSection = () => {
           <p className="mt-6 text-gray-700 leading-relaxed text-sm md:text-base">
             What's also very interesting...
           </p>
-          <p className="mt-4 text-gray-700 leading-relaxed text-sm md:text-base break-words">
-            Hal Finney — a prolific game designer, cryptographer, cypherpunk, and Bitcoin contributor was known to be working on sci fi and space related games in the late 1970's. He had a knack for Sci Fi and Space related games, and initially contributed in the area of sound effects (according to Wikipedia, and Atari Compendium, <a href="https://ataricompendium.com/archives/interviews/hal_finney/interview_hal_finney.html" target="_blank" rel="noopener noreferrer" className="text-[#045c94] hover:underline break-all">https://ataricompendium.com/archives/interviews/hal_finney/interview_hal_finney.html</a>)
+          <p className="mt-4 text-gray-700 leading-relaxed text-sm md:text-base">
+            Hal Finney — game designer, cryptographer, cypherpunk, and one of Bitcoin's earliest contributors — was working on sci-fi and space-themed games back in the late 1970s, starting out in sound effects. Read the <a href="https://projectb59.com/content/B59-0090/hal-finney-atari-interview.mht" target="_blank" rel="noopener noreferrer" className="text-[#045c94] font-semibold hover:underline">Hal Finney Atari interview</a>.
           </p>
         </div>
       </div>
