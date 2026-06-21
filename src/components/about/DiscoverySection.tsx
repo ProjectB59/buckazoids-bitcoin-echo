@@ -4,7 +4,7 @@ const DiscoverySection = () => {
     <div className="mb-12 p-8 rounded-2xl" style={{ background: `linear-gradient(white, white) padding-box, linear-gradient(135deg, #02314d 0%, #045c94 100%) border-box`, border: "2px solid transparent" }}>
       <h2 className="text-3xl font-bold mb-6 text-[#02314d]">The Discovery</h2>
       <p className="text-gray-700 leading-relaxed mb-6">
-        In March 2025, a Reddit post led us to Space Quest, an old-school adventure game from
+        On March 27th, 2025, a Reddit post led us to Space Quest, an old-school adventure game from
         Sierra On-Line (later Sierra Entertainment). What we found inside it was hard to believe.
       </p>
       <div className="mb-8">

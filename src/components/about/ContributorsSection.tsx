@@ -7,10 +7,14 @@ const ContributorsSection = () => {
       <div className="flex items-start gap-3 md:gap-4 mb-8">
         <Star className="w-6 h-6 md:w-8 md:h-8 text-[#045c94] flex-shrink-0 mt-1" />
         <div className="flex-1 min-w-0">
-          <h3 className="text-lg md:text-xl font-bold mb-4 text-[#02314d]">Key names from the Space Quest development team:</h3>
+          <h3 className="text-lg md:text-xl font-bold mb-4 text-[#02314d]">Names tied to Sierra and Space Quest</h3>
+          <p className="text-gray-700 leading-relaxed text-sm md:text-base mb-4">
+            Space Quest was created by Scott Murphy and Mark Crowe, the duo known as "The Two Guys from
+            Andromeda." Beyond them, our research has surfaced other names with connections to Sierra
+            that are hard to ignore:
+          </p>
           <ul className="list-none space-y-4 text-gray-700">
-            {['Scott Murphy and Mark Crowe (known as "The Two Guys from Andromeda")',
-              'Satoshi Uesaka',
+            {['Satoshi Uesaka',
               'Rod Nakamoto and Nancy Nakamoto'
             ].map((item, index) => (
               <li key={index} className="flex items-start gap-2">
@@ -20,7 +24,8 @@ const ContributorsSection = () => {
             ))}
           </ul>
           <p className="mt-6 text-[#02314d] font-semibold p-3 md:p-4 bg-[#fff3e2] rounded-lg text-sm md:text-base">
-            Put those last two names together and what do you get? Satoshi Nakamoto.
+            Put those last names together and you get one every crypto holder knows: Satoshi Nakamoto.
+            Coincidence, or a thread worth pulling?
           </p>
           <p className="mt-6 text-gray-700 leading-relaxed text-sm md:text-base">
             What's also very interesting...
@@ -36,8 +41,9 @@ const ContributorsSection = () => {
         <div className="flex-1 min-w-0">
           <h3 className="text-lg md:text-xl font-bold mb-4 text-[#02314d]">The Buckazoids Token Launch</h3>
           <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-            On March 27th, 2025, the Buckazoids token launched on Solana, a fast, low-cost blockchain.
-            After decades as an in-game currency, Buckazoids finally had a real home on-chain.
+            The Reddit post landed on March 27th, 2025, and the Buckazoids token launched the very next
+            day, March 28th, on Solana, a fast, low-cost blockchain. After decades as an in-game
+            currency, Buckazoids finally had a real home on-chain.
           </p>
         </div>
       </div>
