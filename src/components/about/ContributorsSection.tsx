@@ -31,7 +31,7 @@ const ContributorsSection = () => {
             What's also very interesting...
           </p>
           <p className="mt-4 text-gray-700 leading-relaxed text-sm md:text-base">
-            Hal Finney was a game designer, cryptographer, cypherpunk, and one of Bitcoin's earliest contributors. Back in the late 1970s he was already working on sci-fi and space-themed games, starting out in sound effects. Read the <a href="https://projectb59.com/content/B59-0090/hal-finney-atari-interview.mht" target="_blank" rel="noopener noreferrer" className="text-[#045c94] font-semibold hover:underline">Hal Finney Atari interview</a>.
+            Hal Finney was a game designer, cryptographer, cypherpunk, and one of Bitcoin's earliest contributors. Back in the late 1970s he was already working on sci-fi and space-themed games, starting out in sound effects. Read the <a href="https://projectb59.com/content/B59-0090/hal-finney-atari-interview.html" target="_blank" rel="noopener noreferrer" className="text-[#045c94] font-semibold hover:underline">Hal Finney Atari interview</a>.
           </p>
         </div>
       </div>
