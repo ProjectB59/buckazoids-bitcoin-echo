@@ -6,11 +6,11 @@ const HeroSection = () => {
   return (
     <div className="text-center mb-16 p-12 rounded-2xl bg-[#fff3e2]">
       <h1 className="text-5xl font-bold text-[#000222] mb-6">
-        The Greatest Discovery in Crypto History
+        A Surprising Piece of Crypto History
       </h1>
       <p className="text-xl text-[#000222] mb-8">
-        We believe we've uncovered one of the most surprising stories in crypto. It ties a 1980s
-        video game straight to the origins of Bitcoin. Here's what we found.
+        A 1980s video game showed a ₿ symbol on screen years before Bitcoin existed.
+        Here's the story behind it.
       </p>
       <div className="mt-8">
         <Button
