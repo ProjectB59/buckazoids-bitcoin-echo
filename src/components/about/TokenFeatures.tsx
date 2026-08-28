@@ -10,8 +10,8 @@ const TokenFeatures = () => {
       <div className="max-w-2xl mx-auto space-y-4">
         <p className="text-white/90 leading-relaxed">Then the story took another turn.</p>
         <p className="text-white/90 leading-relaxed">
-          On <strong className="text-white">March 28, 2025</strong>, one day after the Reddit
-          rediscovery, Buckazoids launched on Solana.
+          On <strong className="text-white">March 27, 2025</strong>, the same day the Reddit post
+          surfaced, Buckazoids launched on Solana.
         </p>
         <p className="text-white/90 leading-relaxed">
           A fictional currency from the early days of PC gaming had become an actual cryptocurrency.
