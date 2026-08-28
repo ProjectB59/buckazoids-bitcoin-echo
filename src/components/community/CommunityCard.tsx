@@ -34,7 +34,7 @@ const CommunityCard: React.FC<CommunityCardProps> = ({
     : "bg-buckazoid-orange hover:bg-buckazoid-yellow text-white";
 
   return (
-    <div className="md:col-span-3 bg-white rounded-lg shadow-sm p-8 text-center">
+    <div className="w-full md:w-[calc(33.333%-1.333rem)] bg-white rounded-lg shadow-sm p-8 text-center">
       <div className="mb-6 w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto">
         {icon}
       </div>
