@@ -65,7 +65,7 @@ const Header = () => {
               isHomePage={isHomePage}
             />
 
-            <div className="flex items-center md:hidden">
+            <div className="flex items-center lg:hidden">
               <button 
                 onClick={() => setIsOpen(!isOpen)} 
                 className="text-white" 
