@@ -1,12 +1,14 @@
 
 import React from 'react';
 import CommunityCard from './CommunityCard';
-import { Github, MessageCircle, Pill, Youtube, Instagram, BookOpen, FileSearch, Search, MessageSquare, ExternalLink, Mail, ShoppingBag, Coins, Calendar } from "lucide-react";
+import { Github, MessageCircle, Pill, Youtube, Instagram, BookOpen, FileSearch, Search, MessageSquare, ExternalLink, Mail, ShoppingBag, Coins, Calendar, Gamepad2 } from "lucide-react";
 import TikTokIcon from "@/components/icons/TikTokIcon";
 
 const CommunityPlatforms: React.FC = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-9 gap-8">
+    // flex-wrap + justify-center (not CSS grid) so an odd card count centers
+    // its last row instead of leaving an empty grid cell.
+    <div className="flex flex-wrap justify-center gap-8">
       {/* Linktree */}
       <CommunityCard
         title="Linktree"
@@ -198,6 +200,16 @@ const CommunityPlatforms: React.FC = () => {
         buttonText="Shop on eBay"
         buttonUrl="https://www.ebay.com/usr/proje_9423"
         accentColor="primary"
+      />
+
+      {/* Roger's Arcade */}
+      <CommunityCard
+        title="Roger's Arcade"
+        description="Play retro-futuristic arcade games like Bucka Block and compete for high scores in the global community."
+        icon={<Gamepad2 className="text-buckazoid-orange w-8 h-8" />}
+        buttonText="Play on Roger's Arcade"
+        buttonUrl="https://rogersarcade.com/"
+        accentColor="secondary"
       />
 
     </div>
