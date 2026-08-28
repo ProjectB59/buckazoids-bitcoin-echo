@@ -19,7 +19,7 @@ export const MobileNav = ({
   if (!isOpen) return null;
 
   return (
-    <div className={`md:hidden ${isHomePage ? 'bg-[#000222]' : 'bg-[#000222]'} border-t ${isHomePage ? 'border-white/10' : 'border-gray-200'} relative z-[9999]`}>
+    <div className={`lg:hidden ${isHomePage ? 'bg-[#000222]' : 'bg-[#000222]'} border-t ${isHomePage ? 'border-white/10' : 'border-gray-200'} relative z-[9999]`}>
       <div className="px-2 pt-2 pb-3 space-y-1">
         {navigation.map((item) => (
           <div key={item.name}>
