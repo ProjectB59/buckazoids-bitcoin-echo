@@ -26,7 +26,7 @@ const venues: Venue[] = [
   { name: "PumpSwap",    url: "https://pump.fun/coin/BQQzEvYT4knThhkSPBvSKBLg1LEczisWLhx5ydJipump", domain: "pump.fun", tag: "BUCKAZOIDS / SOL · Solana DEX" },
   { name: "DexScreener", url: "https://dexscreener.com/solana/dujfqjqj69psrqhgczetd5qcalanyy12tbwvfcpqxvku", domain: "dexscreener.com", tag: "Live chart", cta: "View" },
   { name: "DEXTools",    url: "https://www.dextools.io/app/en/solana/pair-explorer/8KhsZhgWBEfDyTqJGMgZsmqgQUhB2mHj9CnaxcLXAYdm", domain: "dextools.io", tag: "Live chart", cta: "View" },
-  { name: "Blockspot",   url: "https://blockspot.io/coin/buckazoids/", domain: "blockspot.io", tag: "Verified Listing", logo: "/logos/blockspot-icon.svg", cta: "View" },
+  { name: "Blockspot",   url: "https://blockspot.io/coin/buckazoids/", domain: "blockspot.io", tag: "Verified profile · not a market", logo: "/logos/blockspot-icon.svg", cta: "View" },
   // Confirmed buyable directly in the Coinbase app (DEX-routed buy/sell, pay with USD).
   { name: "Coinbase",    url: "https://www.coinbase.com/price/buckazoids-solana-bqqzevyt4knthhkspbvskblg1lecziswlhx5ydjipump-token", domain: "coinbase.com", tag: "BUCKAZOIDS / USD", cta: "Buy" },
 ];
